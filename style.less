@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,400);
+
+@main-red: #FF0005;
+@sub-red: #AE0201;
+@selection-red: #7E0301;
+@subdued: #3c3c3c;
+@bg: #0A1A1F;
+@dark-bg: #081317;
+
+body {
+  padding-top: 8vh;
+  background: @bg;
+  color: #fff;
+  border-top: @main-red 9px solid;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+::selection {
+  color: #f8f8f8;
+  background: @selection-red;
+}
+
+::-moz-selection {
+  color: #f8f8f8;
+  background: @selection-red;
+}
+
+a:hover {
+  color: @sub-red;
+  text-decoration: none;
+}
+
+a, a:visited, a:focus {
+  color: @main-red;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 0.9em;
+  font-weight: 200;
+}
+
+hr {
+  border-top: 1px dotted @subdued;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.subdued {
+  font-weight: 400;
+  color: @subdued;
+}
+
+.nav-pills a:hover, .nav-pills a:focus {
+  background-color: @dark-bg !important;
+}
+
+#lastfm {
+  display: none;
+}
+
+#lastfm div {
+  background: @dark-bg;
+  padding: 10px 0 5px 0;
+  border-radius: 8px;
+}

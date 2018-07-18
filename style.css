@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+@import url(https://fonts.googleapis.com/css?family=Raleway:200,400);
+body {
+  padding-top: 8vh;
+  background: #000000;
+  color: #fff;
+  /*border-top: #ff0005 9px solid;*/
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+::selection {
+  color: #f8f8f8;
+  background: #7e0301;
+}
+::-moz-selection {
+  color: #f8f8f8;
+  background: #7e0301;
+}
+a:hover {
+  color: #ae0201;
+  text-decoration: none;
+}
+a,
+a:visited,
+a:focus {
+  color: #337ab7;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+h1 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 0.9em;
+  font-weight: 200;
+}
+hr {
+  border-top: 1px dotted #3c3c3c;
+}
+.title {
+  font-size: 18px;
+}
+.subdued {
+  font-weight: 400;
+  color: #3c3c3c;
+}
+.nav-pills a:hover,
+.nav-pills a:focus {
+  background-color: #081317 !important;
+}
+#lastfm {
+  display: none;
+}
+#lastfm div {
+  background: #081317;
+  padding: 10px 0 5px 0;
+  border-radius: 8px;
+}
