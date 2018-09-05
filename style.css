@@ -59,11 +59,9 @@ hr {
 
 .fa{
 	padding: 15px;
-	font-size: 100px;
 }
 
 .fa:hover{
 	color: #5D5D5D;
 	text-decoration: none;
-	font-size: 100px;
 }
